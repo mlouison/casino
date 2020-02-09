@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 21 22:39:19 2019
+
+@author: paulmontaye
+"""
+
+voc = input("Entrez le voc : ")
+liste = []
+print(voc)
+
+#a civil servant : un fonctionnaire
+#a clerk : un employé de bureau
+l = []
+#l = voc.split(':')
+l = voc.split('\n')
+a = ":".join(l)
+l1 = a.split(":")
+print("\n")
+
+
+print(a)
+print("\n")
+print("\n")
+
+print(l)
+print("\n")
+
+print(l1)

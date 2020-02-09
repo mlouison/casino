@@ -1,0 +1,113 @@
+/*
+
+style.css
+
+--------
+
+Premier fichier css
+
+*/
+
+body
+{
+	color: rgb(230, 230, 220);
+	font-family: sans-serif, "Arial white", "Times New Roman", Impact, Arial, Verdana ;
+	font-size: large;
+	/* exemples de polices :
+	Arial ; Arial white ; Comic Sans MS ; Courier New ; Georgia ; Impact ; Times New Roman ;Trebuchet MS ; Verdana
+	*/
+	background-color: rgb(230, 230, 220); /* Le fond de la page sera noir */
+	/*background-image: url("images/menu.jpg");
+	background-repeat: no-repeat;
+	background-size: 1700px 900px ;*/
+}
+
+p
+{
+    color: green;    /*  couleur des paragraphes */
+	font-size: medium; /* taille des paragraphes */
+}
+
+h1
+{
+    color: black;    /*  couleur du titre 1 */
+	font-size: 4em; /* taille (un nombre suivi de em ; 1em est la taille moyenne) */
+	font-weight: bold; /* en gras */
+	/* exemples : italic */
+	text-align: center;  /* Titre centré */
+	
+}
+
+h2
+{
+	color: rgb(100, 100, 200);
+	text-align: center
+}
+h3
+{
+	font-weight: italic;  
+	color: rgb(255, 147, 201);
+}
+h4
+{
+	color: rgb(150, 203, 200);
+	text-decoration: underline;
+}
+h5
+{
+	color: rgb(155, 240, 255);
+}
+
+a:visited
+{
+	color: purple;
+}
+
+
+mark
+{
+    /* La couleur de fond prend le pas sur celle de toute la page */
+    background-color: red;
+    color: black;
+}
+
+
+.fin
+{
+    color: rgb(88, 116, 248); 
+}
+
+.souligne
+{
+    text-decoration: underline;
+}
+
+.barre
+{
+    text-decoration: line-through;
+}
+
+.ligne_dessus
+{
+    text-decoration: overline;
+}
+
+.clignotant
+{
+	text-decoration: blink;
+}
+
+.barre
+{
+	text-decoration: line-through;
+}
+
+.italique
+{
+	font-weight: italic;
+}
+
+.gras
+{
+	font-weight: bold;
+}
